@@ -1,4 +1,4 @@
-# Periodic Table Database created using PostgreSQL and Bash
+# Number Guessing Game created using Bash and PostgreSQL
 This repository contains the code used to create a number guessing game using Bash. We use a CLI to play the game and interact with the PSQL database.
 
 ## Dependencies
@@ -19,7 +19,6 @@ When in the folder containing the `number_guess.sql` file, run the following com
 - Playing the game:
 After building the database, run the `number_guess.sh` script to play the game.
 Enter a username (of length up to 22 characters) and try to guess the numnber.
-Run the `element.sh` shell script. Run it as follows:
 
 Using a program like [pgAdmin](https://www.pgadmin.org/download/) you can inspect the architecture of the database. Alternatively, you can use SQL queries to explore.
 
